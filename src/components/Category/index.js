@@ -8,5 +8,8 @@ export const Category = ({ cover = DEFAULT_IMAGE, path, emoji = '?' }) => (
     <Image src={cover} />
     {emoji}
     {emoji}
+    <Image src={cover} />
+    {emoji}
+    {emoji}
   </Anchor>
 )
